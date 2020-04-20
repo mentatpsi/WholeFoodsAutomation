@@ -79,7 +79,7 @@ if __name__ == "__main__":
 
     found = False
 
-    while True or found:
+    while not found:
         driver.refresh()
         retVal = grabAvailability(driver)
 
